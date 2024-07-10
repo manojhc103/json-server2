@@ -81,5 +81,23 @@
       "sports": ["Tennis"],
       "image": "https://example.com/rafael-nadal.jpg"
     }
-  ]
+  ],
+"manoj":[
+    {
+        "id": 9,
+        "name": "Katie Ledecky",
+        "email": "katie@example.com",
+        "address": "852 Swimmer's Lane, Aquatics City",
+        "sports": ["Swimming"],
+        "image": "https://example.com/katie-ledecky.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Rafael Nadal",
+        "email": "rafael@example.com",
+        "address": "963 Tennis Court, Mallorca",
+        "sports": ["Tennis"],
+        "image": "https://example.com/rafael-nadal.jpg"
+      } 
+]
 }
