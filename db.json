@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Michael Phelps",
+      "email": "michael@example.com",
+      "address": "123 Swimmer's Lane, Aquatics City",
+      "sports": ["Swimming"],
+      "image": "https://example.com/michael-phelps.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Serena Williams",
+      "email": "serena@example.com",
+      "address": "456 Tennis Court, Tennisville",
+      "sports": ["Tennis"],
+      "image": "https://example.com/serena-williams.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Usain Bolt",
+      "email": "usain@example.com",
+      "address": "789 Sprinter's Road, Running Town",
+      "sports": ["Athletics", "Running"],
+      "image": "https://example.com/usain-bolt.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Simone Biles",
+      "email": "simone@example.com",
+      "address": "321 Gymnastics Blvd, Gymtown",
+      "sports": ["Gymnastics"],
+      "image": "https://example.com/simone-biles.jpg"
+    },
+    {
+      "id": 5,
+      "name": "LeBron James",
+      "email": "lebron@example.com",
+      "address": "567 Basketball Court, Hoopsville",
+      "sports": ["Basketball"],
+      "image": "https://example.com/lebron-james.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cristiano Ronaldo",
+      "email": "ronaldo@example.com",
+      "address": "654 Football Field, Soccer City",
+      "sports": ["Football", "Soccer"],
+      "image": "https://example.com/cristiano-ronaldo.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Lionel Messi",
+      "email": "messi@example.com",
+      "address": "987 Soccer Stadium, Barcelonaville",
+      "sports": ["Football", "Soccer"],
+      "image": "https://example.com/lionel-messi.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Naomi Osaka",
+      "email": "naomi@example.com",
+      "address": "741 Tennis Court, Osaka City",
+      "sports": ["Tennis"],
+      "image": "https://example.com/naomi-osaka.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Katie Ledecky",
+      "email": "katie@example.com",
+      "address": "852 Swimmer's Lane, Aquatics City",
+      "sports": ["Swimming"],
+      "image": "https://example.com/katie-ledecky.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Rafael Nadal",
+      "email": "rafael@example.com",
+      "address": "963 Tennis Court, Mallorca",
+      "sports": ["Tennis"],
+      "image": "https://example.com/rafael-nadal.jpg"
+    }
+  ]
+  
