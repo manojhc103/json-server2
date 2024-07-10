@@ -1,4 +1,6 @@
-[
+
+{
+"data":[
     {
       "id": 1,
       "name": "Michael Phelps",
@@ -80,4 +82,4 @@
       "image": "https://example.com/rafael-nadal.jpg"
     }
   ]
-  
+}
