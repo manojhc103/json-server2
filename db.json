@@ -1,103 +1,47 @@
-
 {
-"data":[
+  "data": [
     {
       "id": 1,
       "name": "Michael Phelps",
       "email": "michael@example.com",
       "address": "123 Swimmer's Lane, Aquatics City",
-      "sports": ["Swimming"],
-      "image": "https://example.com/michael-phelps.jpg"
+      "sports": "Swimming",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/1161960426/Day-Thirteen--The-Championships---Wimbledon-2019/960x0.jpg?format=jpg&width=960"
     },
     {
       "id": 2,
       "name": "Serena Williams",
       "email": "serena@example.com",
       "address": "456 Tennis Court, Tennisville",
-      "sports": ["Tennis"],
-      "image": "https://example.com/serena-williams.jpg"
+      "sports": "Tennis",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBIQEhIVEBAPEBAQEA8QFRAPDw8PFRUWFhUVFRUYHiggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0fHR0tLS0tLS0tLS0tLS4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLSstK//AABEIALEBHAMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xABIEAABAwIEAwMJBQQJAgcBAAABAAIDBBEFEiExBlFhE0FxFBUiMlKBkaHwB0JysdGCssHCFiMzQ2JzkqLhs/E0NURTVKPiJP/EABkBAAIDAQAAAAAAAAAAAAAAAAABAgMEBf/EACURAAICAgEFAQEAAwEAAAAAAAABAhEDEiEEEzFBUSJhMjNxI//aAAwDAQACEQMRAD8AqDxIAzdZjGOJXOuAVm3VriLXUR7iVTHCkaJ52xypqS83KYRoK6jOOw1DmnQq8w/HXDQlZ1AKMopk4zcfB0SmxMvG6Yq53D3qu4fFwFezUtyFWoKy6WRtCsNpy/dT5KOymYTAAFYywhdGEUlRjk7ZQmm0VdWUK0dQAFDfYqTimJMy3ZuBWs4QpLHOdyq2ppVPwir7PS23uWPLHWRdF2joBmys9yoe2L5D4qFXY7YNblLi8hoEd5DroNANfctHheAz5WvdC9oOtnAB48W3uPgq5Q2dlqnqqJENw1Y3jB8p0BIb0XR46XSyp8bw0OB0VlcFPsyPCcmUAO3W0NSMqw8jDE7TZSPO1xZQjFIn5IHGM97rEy1paLLTY2/PqsTiTrEqepfeqIFfUlxUNG86okqMrdsCANkEExCjIeaLMiREpAOByVmKaBTgKYBX1W34VIACxTDqrrD68x+CcSnKdZoJm3Gq1NE5pC4fFxOWm4PuWhw3j1mgJseuiui0VpNHVnlR3FZKi4vjfpm+KshxAz2h8VakJs89IFSIYbut3Ke+mFtlkSs1WUyNLe3VFZFBYlAJVkMqKCzXcNt0BWodHsVkOH5rAXWnNeAAoRj+i1y/Jb0brKcZVlJcaA71FdxDrutuyRmZqqlt9k1T0huqalxsHcqwGNta25Oiey8hQ1xDWxwABzgHOBIHfbmsw50k72siYXukcGxtaHnM9xsAL2BPVHi1YxxfUekXSOytcbjKxtrhot0aLnf0l1D7IeGXhoxOpB7WVuWkjdf+qhP95buc7u5N/EsknvIuX5RrPs/4PZh8AzWkq3i80ouQ0n7kd9mj57nuAvqtlQ59o5I44nAZnFpdMw9+T7pv1Gmu6cEmttye5SY221Op+QTI+RsUTbWJcT7bnOc4/H/ssjjmNwsc6KHJNIw5XucQ5jHcso3Piq/7QOOCwOpKR15T6Mkw1EQ5Dm78vz482OSGTtmgh17ucL3f3kP9q9zv4rPky1wi6GJtWzpk9Y2TSaNtj/eRNbHIzrZujh0PxVNX4YWONjcbhw2c07EKFR4sJPS2B7jutBBIHQtzdxcB+G//ACUYptumSaUeUZKvYcpWIxY6ldHxRgsdVicWoQStDQsmRUZhBWhw0IvN4Soz7orEFaeQtR+Rt5IoW6KpEQrbyRvJAUzeSKDuIqgEoA8ldsgaldk1FC7hRtYb7FTGRG2xVh2YCcEjQiiMpWUb4XX2ShTu5K3LgiLwpIbmVIY9uxI96ktrqgC2Yp57wkdoEEbv0OQURBunKlptYH3pcdSCmampHNRjwye3BAdTIeT9U46pCQagKVkeQ20yX5ME2KkJRqgmmJqRaUIACkTT9wVXSyk7J6Z5Hco+ySb8DjhfdEIwob6o8kya1yLCmW7dNkxiNQ4R76Zhvb6/7KHFUuPf+qkPaHNfmv6LLi5Glzcn4D5qMnwShF3Zpfsu4c84VOaa76WmIklDrlsr/uR67jS56C3evQweTYN37ugWA+zOgFPh0LQLPlHbydxLn6i/gMo9yxXE3HlbJWyxUtQYKdrhA0sDCXuYSHPzEE2JuNO5oUm1CJLmTO6VmIwUkZfNK2NoGrnkAnw71yfjP7VHzk09C14jOjpQLSPH+H2R1P8AysvLgcspzSzPmcdS+Rxefdfb3JuqwuVjQyCP8UjiGN97t/gscuo2dI1R6drlisKrQCBJC9pJ9Y5Xa9bFWOOylsYyNbmd3v8AVaO8nmo2EYTKXAOcSMpL7Xc1rr6ZXWAItbrutBU4QKiLsX6Ob6hboT0Kpk0nRpjGTRkMEhs43l7Ro9J1m5SHch0WlmrRlsBYAWAT+C8IlhcS1rXBmQek4ucNwDf/AJUGrkDLgtsRofFbMNGLPFryUeJ1jhc3WelxQX1V9irwQVja22bRXMyR/ROdiQ5FNHEeirkErJ6IsPOPRINeeShIIsNETTWFHHK92yiK4wRoJsUEGkkQZnyNTLKl5O61mJUIyqro8O9JFEFkVckSGCR25KlMw93MrQRUgaNUHkBOimWZ+ikGGlRquiIV+ahQcRkuE6FDK7My8apsqRMw3SOxKDbHk10OEWbsqPGabKuneZnW3VTX8JZ9yijJCbT5OYBEQuiM4EHVSI+BGJal3eXw5nZGupN4Fj5J+PgeL2U6DvfwwWDx6KTiTNNAujUnCsbfuqQ/hqM/dCKK1N3ZxiSN3JM+Tu5FdsHDEXshODhqL2R8Ealne/hx2go3kgFpPTZTMUp2xkNJvmaQ9oPq32J8N10fHcJyR2iAD3Bzi6wOVjbZj13A965bjlO5k2TMXAgWJ3cT63zv8lVJOy/HNNf06xiGOvijdTwB2fsB/WsGcMzNFjl6aarlNNSPikHomzSPS3aet10qlpHupYnzSR+nG2IvjkEjXNcMrTmAABJZYi5Fza6ObAWsa70czXWykauHQj46hZMuWcJNS8G6GGM4Jx9eRWCVrSAb+I6rUUzo3DUBc6oaYseRra5sdtlaSV7miwKy3qzTF2uTT4nURxt9ABz3GzR3X6rPV2JVTdGQEP75swLbdBv8gqzEcSkjyzFpeGjTfIwncuPcNtVDbxDRuIdV1M0pvrHTtyxNFx3nfQ9x+6VZGLnykKWSMeGy6ZiNQzLM99znyPbe5DXWDb9b/vJrHJs5LgPWsffZV9LU01VL/wDyMmjigjcZzMQRITbJYXNjcOK2sWDAsbf2W38bLV0+Nqb/AOGPqp7QSRyyua830Ko5aB5PqldwPD8fIIm8Oxcgtmpz4pxOJMwiU/dKc8yS+yV3FmBxjuCUcHj5BGpO2cNGBy+yUscPy+yu4DCY+QTjcKZ7IRqHJxJvDk3sqbQ4BM07LsowpnIJQwxnIJ0iLi2cwdhcpABR0+CyA3XUBhbeSeZhLeSKI9pHMXYVIU2cDkPNdWGEN5I/NTeSBdlHJTw5J1RO4Xed7rrvmtvJDza3kgawxRyBnBjidVNbwcLbLqgw9vJK8hbyQWJUUPatR9s1Z7y4c0PLxzSMWxoe3ah5Q1Z7zgOaLziOaYtjR+VBDysLNnEhzRHExzQLc0vlgRGtWZ86jmknFRzQG5pzXJLq5Zc4uEk4uEC3NDJPdxcdbty27rXuuYfaA1oqRksLwgBo3BLnZieWgAWqdi45rEcRtBqHyl184blb7NmgH8vmoT4NPTS2kRaPFZ2RPpmv/q5iM4IvbXXLfYmwuegV1heKThotM9o/Fe3iD4LN0jbku66dOqtaIlotcEXNhsN72+az5lsuTpYnq+DV09SSfS1O9xseqccCb+OngomHMLxbUEbAizgP4jwUmWYs0LVzteTdEmUTyBaylR4Uxzs4gie497o2Fx8TZUBxMg6D4qxpMakvoAiO0XwT4ZfmllyEGNsbLH1A1vcbXtqUvz61VjMUkkORzujrfkpQgZyC6PTbJNv2c/q5RbST8Ek48Enz70KbETOQS2Rt5BadjIB2Nu5FJbi7yfVKmx0jeiRKxo2CWwBxVru9SGV57go0NOXFWtJhhO6fLAFPM5ytaeE96cpqENU1rLJgMshToYloiUhgyoiEeZBACCELJaJACCESUUkoA88+czzReczzVHnKPOnZzu0XXnI80DiJ5qlzI8yLF2i484HmknEDzVTmQujYOyi1NeeaSa481W3QujYO0iwNaeaI1h5qBdC6LDtRLAVnf+ao6qoL3Oce86dApoF7jofyTM9uzsQAWaX73clXJ2zZ08VBMYzaEDusL9e9bLgnhyWsJa2JsoAuTID2Yv3l1xb60Uf7L+FW4jUvZI57Y4WCV/ZgendwAZnN8t9e43sdl3uKlipohTUzBFGwWc8XuTyzG5J5k+HNRlFVbNkHzwc6dw3PTHLmhmaPWijfM6Rn4HOYAfAu/RT2cOunHpDK3mfWWlqJ42b+keuyi+ci79Aufl0s6GPaiqi4EpwPSzO6lzv4Jz+hsAByucwkEAgglvUZgVaeWdVHlq+qjaROjOf0BmjF6epa/wDwzgtJ/bbf8ln8YNfS/wBtC5rf/cb6cX+tug99l0HzgeafgrydNwe7cEK5dQ/Zml0kfXByL+kEp70/R41KXaldJq+EaCc5jD2Tju6A9lfxb6vyUSP7O6UG7Zph0d2brf7Qr45IMzS6aaKeir3OA1V9QQZrXTsfBjGerUe50Y/MOUyPBpW+rLG7xzN/gVcpw+lbwz+FjR0zArFrmhZuSnrBs1jvwyNH52UeU14/9OT+F8R+WZT3j9FpJejXduERqQueV3EE8X9rDJENrva5rfc4ixVc/jF30U7RHk6l5WOabkqwuVO4veh/S56VoDqDa0XTnlzea5M7ix/NNu4sfzRsgOuGvbzTbsRbzXIX8VSc0y7iWQ/eRsg5OwOxRvNRzizea5E/iKT2io5xyT2ijZAZXMjzJpGgo0HMyPOmkEBoO5kMyQggWg5mQLk2ggNRzMhmSEaA1HWvsCrbhrhyfEJ208IAuA+aV39nBCDbM7mSdgN/C5FRGN77AZj7l6I+yzB20+Hwm39ZVMbUyu7yZGhzG9A1paPcT3pJWy2Ea5JOA4DTYTTCCC+eY5pZXm8kjgLFx9newA0Fz33Jj1tcDoDoEOJqkmYtH3QG/K/8VU5eZWHqMrcml6Or0+JKKb9jVTJdRu0snKg2VZUzrE2aW6JMtdZRXYhfvUGWS6jtBBudkytyLqOov3qzo3gLKHEGt70sY3yQNTRtfLrDdEcVA71h3Y0Uw7FFK2PuRNw/Geqb89271hnYkVHkxA80Ww7iOg/0h6pxnEHVc28uPNOMxK3en+g7kTqDMeuLHUHflZYXjLBW61VO0Bn99E3QMPttHs8wNt9r2jU+MAblJr+IQ2N4A0exzLHZ2YEW+asxTkpFeZY5RZm7orqJ5UEXlYXQOWTCUV1DNYEXliAJl0RKhGsSTWIAm3RXUE1iLyxFAMoIIKZUGgiRoAU0dyneapcubKp/CdI10oLtdQAF0+bCmFmwtZXQxbKxqNnFCO5T6DCZJRcD0ea0UuDsfO6MN3dvyW7wTA2siDQNBonHFzyCicvpuGZnOtaw5pWI8MSxNzD0gN12CSha0sFt1FxikbYt30U+zGh6nDJQctgPSeQwDqSvWNFEI4g0bRsDB7hZeX8gOIwwj1RVxM09oygH9PcvUMzrRnr8VngSqlRi8XlHbyX9r5EAj80xDICkcTxkSNkGrXjK43++3bvO7bW8FApXm65PUJxyNHXwyUoIs3whyjyYa1TqfZKkcoJEmVRoWi+ioMZkABtotFXSaWWaqos77bhuyTISMTiVY+1wSz0gNNHEWd3+5NQYvKPvZhycGu+e6v8AijB3eTPnbtBLFn6tfmbf3Es/1LMUdPmOq6GKKcFaOfkbU/JaxY4fvRNP4S5v53T3ngH+4/3/AP5UnDsKZyW24K4ahmqB2jA6KJple07PIIDWnoSdRyBUuxF+iPdl9IHD3Cj6qjdWyAUkP912hMjpgNMwAAs2+gJ38LE0tXRMaSMwPUArsnEZ7WnkgacuZlmnYB4N23t3XAXFKzM1zmPBa9ps5p3BVOfCoVS4NOGWyd+SPJG0dxKadFyClxRl2wv4KXDhxO9mj4n4KlQb8IcpRXkpnRhoLjoBvpr4DqqCsMsjsxBA2a3ua39V0TyGO1jrbmh5FFyC14sWvL8mWeTbx4OaeSScij8jk5FdK8li5BF2EXIK6iFnN/IZORR+bpORXRuyj6IrR9PkihWc782yckfmuTkugkx9Ekvj6IHZgPNUnJKGESclu+1j6Iu3j6IDk58jRIJlQaMIkEAWWB1ZjlZbbMF1xlbmaBfuXFI32IPI3Wkg4ls3qFfiml5GnRq6CRrah9/WvutthtaAw33XGfPwJL9Q4o6TimZt7uNidOin3IhtR2eeoacp6qvxidurui5hHxjKHc2/NJxTix8rS1oy33KfdjQ9ymwBxOKUpPfXwHxvOF6jrT6AGvPTf3aHVeXsIberpHMBzNqoD4kytP5r1DWtv7vfp8Cs+Mm3ZRYjSiVjoza51ae5rxsdTo37u3eVmofQ0IyuabOB0II3BWvlZ092tvDb1efVU2M4d2lnsOWbb0tBOBzNgGu67FUdXgeRbR8o09Pl0dPwQPKrJvyq6qKqodGcsrXRuGlnAi/gdj7k23EG33XL5XDN9p+Cynde5TFJTXu7mnaWGSX1GEg/fIyx255jotXhOFtjaCfTcNbjVgPTn4q/F008j8UjPkzRiVjMDDqZ9PILeURvEm92l4sPeLNPiFw8B0Ej4pBaSJ7o3jk9pIPzC9HSs+Pu/iFxb7WsPEVcJgLNqog8/wCaz0H/AC7M+9dWcFGKr0c9yt2xrh7t6qXsYGi4GZ73HLHEzbM4/wABclbzDMRiopRFnzCQZJZ3aen3ED7rb6e+5KoMDdHR0wja0tqJGtdUyO9bPa+QcmtuR8VWVlR2jud1zpZ3t+fRux9OlH9eWdOqqlYzi3GqSMgTMEs2W7WNHpgd2Z33R9WWeq6+SGF1pXgBtmtDnZcx0aAOX6LESuJJJJJJuSSSSeZJ3WlZO4jJOOj8l/LxK86ANY0bMYLNb9cymjj8nNZ8uRtUqIF6cek5pBx2TmqnsyifEQkBaOxuTmkHGZPaVQQiToZbHGH+0kHFX+0qxEigLI4m/wBpI84v9oqAjsigJpr3e0UXlzvaKiBiVkRQD6CCXHGXbC609j+lFiUEp7CDYixSU+x/QsNBEgn2V9CxSNJRp9mP0QaMIkYKfah9EXvBFPnxKiYf/lQuP7Ds/wDKvSj9/r9F55+y2PNi9J/hMzvhBIR87L0C5319BRlGMf8AEsh4GpoAdtOgHyGnxVPWU0gvYDXR1raj2R6Oyu3P+vobpl4v3fLbxHNRJ2ZzNNsWiw0yOcSxo6nv94T8FJcgkRt6taCf2dgrKSAf8bk+++yS1wb3EdQCfl9fxQkFjrIhYEvvbuc1oF0svHMH/T+iiulu70QS0c9LnpqluvbQkdLu/VSREE0o5j4j9VjOOYI3mllfY+TyyObsbnJmAOp0zMafctNNKev+79VhuO8Ss+ng3MpmO+wDLDc95NlV1D/8pV8LMNPJG/pnqyd0hc/fp3kE2/imHytYXuOjW6X+SqqysBmjj2ayWIuffaxH5XScamAb2YdmJdmJ5AbX8b/JcqGJ8X7OhkyqnXoiYnXuldyY31W8up6qA9KSStySSpHPbt2xlyepwmXJ6mCkCJjGITNS2JTgpKIrK5zE0WKwcxMyMTcQTIZCJOPaiLVAkISmlJIQQIda5LzBMBGkOh9aLhyjzgnks5dWmFYjk0vZXY5c8lNFhxJRBjb94ss5dWuL4n2gyg3VTdGSVy4ChSCTdC6rsKFI0jMhmQFC7o0jMhmTCjXfZa+2LUvXtx/9Eq7+4A9318F53+ziS2K0h/xyf9GQLvLqkk2uGj671ZDwNKiW8tHM/C35Jpxv3kdLJgyvHsn4j6+uiHlLvZB9+v5fW3cVMY4QebT1OYH5fXuSXSyjYtcOpzD5hEKo79nfoC03+vn4IvL298bm9CPq/wDHwQAflDzvlb+Ee/6+ikSOHMnxv9fXxe8pZ3gjbTf8vrlzTckrDsR9fX1oS0JlRXutf89P0XD+LcUNRVyONw2M9lG06ENaTckcybn4cl2zGAQyT/LkI9wJXGuLqK0nbtHoyWD+j+4+8D5dVnzTqaj9LIQuLl8KNqMBJaUagIMhIKdCQ4IAZcnYAm3J+FAIfa5KMqSmpXI2ZKkL7VIc9Ry9Ka5T2bEkKy3Q7JOMUpjUVY26K10RTJCuJItFXTjVNxogpDCVdJQUCQ6gUEEyIEEEEABGEEEAAIIIIGgIBGggZo/s7/8ANKT/ADH/APTeu5t9YIkFbDwRY83u/Z/lTPcfw/yBBBTAdHf+3+6E7NsfB37oQQTENzbnwd/KoVVufH+ZyCCmhMhV/wDZO/BJ+6VzTHv/AA0v4G/vNQQWDq/9kTTg/wAJGKCUggmUigg5EggBpyegQQQwQ+o8yCCiTRFKeiRoKaEOhTIkEFOPkUhUyq6jdBBSmVx8jCCCCqLD/9k="
     },
     {
       "id": 3,
       "name": "Usain Bolt",
       "email": "usain@example.com",
       "address": "789 Sprinter's Road, Running Town",
-      "sports": ["Athletics", "Running"],
-      "image": "https://example.com/usain-bolt.jpg"
+      "sports": "Athletics",
+      "image": "data:image/jpeg;base64,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"
     },
     {
       "id": 4,
       "name": "Simone Biles",
       "email": "simone@example.com",
       "address": "321 Gymnastics Blvd, Gymtown",
-      "sports": ["Gymnastics"],
-      "image": "https://example.com/simone-biles.jpg"
+      "sports": "Gymnastics",
+      "image": "https://cdn.shopify.com/s/files/1/0598/8158/6848/files/mithali-raj_1567754819_cf738844-d230-4dd9-9198-de818c906dc7_480x480.jpg?v=1695620335"
     },
     {
       "id": 5,
       "name": "LeBron James",
       "email": "lebron@example.com",
       "address": "567 Basketball Court, Hoopsville",
-      "sports": ["Basketball"],
-      "image": "https://example.com/lebron-james.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Cristiano Ronaldo",
-      "email": "ronaldo@example.com",
-      "address": "654 Football Field, Soccer City",
-      "sports": ["Football", "Soccer"],
-      "image": "https://example.com/cristiano-ronaldo.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Lionel Messi",
-      "email": "messi@example.com",
-      "address": "987 Soccer Stadium, Barcelonaville",
-      "sports": ["Football", "Soccer"],
-      "image": "https://example.com/lionel-messi.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Naomi Osaka",
-      "email": "naomi@example.com",
-      "address": "741 Tennis Court, Osaka City",
-      "sports": ["Tennis"],
-      "image": "https://example.com/naomi-osaka.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Katie Ledecky",
-      "email": "katie@example.com",
-      "address": "852 Swimmer's Lane, Aquatics City",
-      "sports": ["Swimming"],
-      "image": "https://example.com/katie-ledecky.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Rafael Nadal",
-      "email": "rafael@example.com",
-      "address": "963 Tennis Court, Mallorca",
-      "sports": ["Tennis"],
-      "image": "https://example.com/rafael-nadal.jpg"
+      "sports": "Basketball",
+      "image": "https://i0.wp.com/img.jagrantv.com/webstories/ws1236/1652882571-cover-pic.jpg?strip=all"
     }
-  ],
-"manoj":[
-    {
-        "id": 9,
-        "name": "Katie Ledecky",
-        "email": "katie@example.com",
-        "address": "852 Swimmer's Lane, Aquatics City",
-        "sports": ["Swimming"],
-        "image": "https://example.com/katie-ledecky.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Rafael Nadal",
-        "email": "rafael@example.com",
-        "address": "963 Tennis Court, Mallorca",
-        "sports": ["Tennis"],
-        "image": "https://example.com/rafael-nadal.jpg"
-      } 
-]
+    
+
+  ]
+ 
 }
